@@ -22,7 +22,7 @@ from exemptionRequests.api import viewsets as exemptionRequestsViewsets
 
 route = routers.DefaultRouter()
 
-route.register(r'exemptionrequests/', exemptionRequestsViewsets.ExemptionRequestsViewSet, basename="ExemptionRequests")
+route.register(r'exemptionrequests', exemptionRequestsViewsets.ExemptionRequestsViewSet, basename="ExemptionRequests")
 
 urlpatterns = [
     path('admin/', admin.site.urls),

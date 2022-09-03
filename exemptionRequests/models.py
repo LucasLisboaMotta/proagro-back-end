@@ -24,3 +24,4 @@ class ExemptionRequests(models.Model):
   longitude_location = models.FloatField()
   event = models.CharField(max_length=15, choices=EventList.choices)
   create_at = models.DateField(auto_now_add=True)
+  crop = models.CharField(max_length=255, validators=[MinLengthValidator(3)])

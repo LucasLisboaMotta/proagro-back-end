@@ -52,7 +52,7 @@ Esse objeto tem o seguinte formato:
   latitude_location, // numero
   longitude_location, // numero
   event,  // string, apenas uma das opções: ['CHUVA EXCESSIVA',  'GEADA',  'GRANIZO',  'SECA',  'VENDAVAL',  'RAIO']
-  create_at, //= data de criação do objeto, gerado automaticamente
+  create_at, // data de criação do objeto, gerado automaticamente
   crop, // string, de no minimo 3 caracteres
 }
 ```

@@ -3,6 +3,9 @@
 
 Este projeto é o back-end deste repositório https://github.com/LucasLisboaMotta/proagro-front-end
 
+
+Este foi o meu primeiro projeto em Phyton, o intuito era criar um back-end de uma aplicação que visa  criar os cadastros de pedidos dos produtores rurais de obrigações financeiras relativas a operações de crédito em caso de  ocorrência de perdas nas lavouras
+
 Para inciar o projeto, você precisa do MySQL, é necessário configurar o arquivo `proagro/settings.py` na linha 82, a variavel DATABASES com as configurações do MySQL. 
 ```
 DATABASES = {

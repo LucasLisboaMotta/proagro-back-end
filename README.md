@@ -3,7 +3,7 @@
 
 Este projeto é o back-end deste repositório https://github.com/LucasLisboaMotta/proagro-front-end
 
-Para inciar o projeto, você precisa do mySql, é necessário configurar o arquivo `proagro/settings.py` na linha 82, a variavel DATABASES com as configurações do mySQL. 
+Para inciar o projeto, você precisa do mySQL, é necessário configurar o arquivo `proagro/settings.py` na linha 82, a variavel DATABASES com as configurações do mySQL. 
 ```
 DATABASES = {
     'default': {
